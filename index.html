@@ -9,10 +9,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/reset.css" media="screen">
         <link rel="stylesheet" href="./assets/styles.css" media="screen">
+        <link rel="icon" href="./assets/images/logo.png"
     </head>
     <body>
     
         <header>
+            <img src="./assets/images/avatar.png" id="avatar" alt="asian american web developer holding a drink in their hand.">
             <h1>nicholas wong</h1>
             <!--The navigation bar will be in the header and help inform the user of which section they are in (selected state is different color. The following will be in the header: 'Home', 'About Me', 'Projects', and 'Contact Me.'-->
             <nav>
@@ -26,13 +28,16 @@
         </header>
 
 <!--The about me section will provide a background of who I am and also list the skills that I have learned from my coding bootcamp. When the website is found via a mobile device, this will be placed below the header.-->   
-        <section class="About Me">
-            <h2>About Me</h2>
-            <p>Since 2017, I have been working as a User Acceptance Tester for a large contract research organization. This sparked an interest in web development and a pursuit towards acquiring a new skillset.</p>
+<br>
+    <h2>About Me</h2>
+        <div class="About Me"> 
+            <p id="aboutme">Since 2017, I have been working as a User Acceptance Tester for a large contract research organization. This sparked an interest in web development and a pursuit towards acquiring a new skillset.</p>
             <img>
-        </section>
+        </div>
 <!--The projects section will display the projects I have worked on and also link the user to any websites I have helped develope.-->
-        <section class="projects">
+<br>
+    <h2>Projects</h2>    
+    <div class="projects">
             <card id="horiseon">
                 <h3>Horiseon Updated Web Page</h3>
                 <img>
@@ -47,11 +52,48 @@
             <card></card>
             <card></card>
             <card></card>
-        </section>
-<!--In this section, I will provide contact information. I need to decide whether I am going to include an email section, or have it open up to the user's default email application.-->
-        <section class="Contact Me">
+        </div>
+        
+<br>
+        <!--this section will provide a list of my skills (web development and work experience) that are relevant to web development-->
+        <h2>Skills</h2>
+        <div class="skillcards">
+            
+            <card class="skill">
+                <img src="./assets/images/html.png" width="100px" height="100px">
+                <h5>HTML</h5>
+            </card>   
+            
+            <card class="skill">
+                <img src="./assets/images/css.png" width="100px" height="100px">
+                <h5>CSS</h5>
+            </card>   
+            
+            <card class="skill">
+                <img src="./assets/images/js.png" width="100px" height="100px">
+                <h5>JavaScript</h5>
+            </card>   
+            
+            <card class="skill">
+                <img src="./assets/images/git.png" width="100px" height="100px">
+                <h5>Git</h5>
+            </card>   
 
-        </section>
+            <card class="skill">
+                <img src="./assets/images/jira.png" width="100px" height="100px">
+                <h5>JIRA</h5>
+            </card> 
+
+            <card class="skill">
+                <img src="./assets/images/pega.png" width="100px" height="100px">
+                <h5>PEGA</h5>
+            </card>   
+        </div>
+
+        <!--In this section, I will provide contact information. I need to decide whether I am going to include an email section, or have it open up to the user's default email application.-->
+        <div class="Contact Me">
+
+        </div>
 
 <!--The footer will include links to the following: Github and Linkedin. If I decide to add any other applications/social media, I will link it. These links will be clickable icons with the company logos.-->
         <footer></footer>

@@ -1,4 +1,13 @@
 /* my header will comprise of my name and my nav bar. */
+body {
+    background-color: #2e2836;
+    color: #8693ab;  
+}
+#avatar {
+    border: #8693ab solid 2px;
+    width: 100px;
+
+}
 
 header {
     display:inline-flex;
@@ -7,15 +16,30 @@ header {
     font-weight: lighter;
     flex-direction: row;
     width: 100%; 
+    background-color: #b6d094; 
 }
 
+h1 {
+    display: inline-flex;
+    padding: 0 20px;
+    align-self: flex-end;
+    margin-bottom: 0;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2e2836;
+}
 nav, ul {
     margin-left: auto;
+    margin-bottom: 0;
     font-size: 14px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-self: flex-end;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: #2e2836;
 }
 
 li {
@@ -24,4 +48,42 @@ li {
     justify-self: flex-start;
     overflow-wrap: normal;
     text-overflow: ellipsis;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    border-radius: 25px;
+}
+
+ .skill{
+    border: 5px plum;
+    border-width: 2px;
+    background-color:#e1aa7d;
+    padding: 1em;
+    flex-direction: row;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+
+img {
+    background-color: white;
+}
+h5 {
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
