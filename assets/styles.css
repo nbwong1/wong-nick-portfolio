@@ -1,0 +1,45 @@
+/* my header will comprise of my name and my nav bar. */
+
+header {
+    display:inline-flex;
+    align-items: flex-start;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    flex-direction: row;
+}
+nav {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    display: inline-block;
+    align-items: flex-end;
+}
+
+li {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none;
+    padding: 5px 0;
+}
+
+.projects {
+    display: inline-block;
+    width: 100%;
+}
+
+card {
+    display:inline-block;
+    padding: 2px;
+    border: solid;
+    border-color: rgb(141, 93, 165);
+    width: 50%;
+    opacity:80%;
+    flex-wrap:wrap;
+}
+
+#horiseon {
+    width: 100%
+}

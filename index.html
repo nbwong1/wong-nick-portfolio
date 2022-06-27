@@ -7,24 +7,24 @@
         <title>nwong portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/reset.css" href="./assets/styles.css">
+        <link rel="stylesheet" href="./assets/reset.css" media="screen">
+        <link rel="stylesheet" href="./assets/styles.css" media="screen">
     </head>
     <body>
     
         <header>
             <h1>nicholas wong</h1>
+            <!--The navigation bar will be in the header and help inform the user of which section they are in (selected state is different color. The following will be in the header: 'Home', 'About Me', 'Projects', and 'Contact Me.'-->
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                 </ul>
+            </nav>
         </header>
-<!--The navigation bar will be in the sidebar and help inform the user of which section they are in (selected state is different color. The following will be in the sidebar: 'Home', 'About Me', 'Projects', and 'Contact Me.'-->
-<aside>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
-        </ul>
-    </nav>
-</aside>
+
 <!--The about me section will provide a background of who I am and also list the skills that I have learned from my coding bootcamp. When the website is found via a mobile device, this will be placed below the header.-->   
         <section class="About Me">
             <h2>About Me</h2>
@@ -32,9 +32,18 @@
             <img>
         </section>
 <!--The projects section will display the projects I have worked on and also link the user to any websites I have helped develope.-->
-        <section class="Projects">
-            <card></card>
-            <card></card>
+        <section class="projects">
+            <card id="horiseon">
+                <h3>Horiseon Updated Web Page</h3>
+                <img>
+                <p>I learned how to refactor code.</p>
+            </card>
+            <card>
+                <h3>TBA</h3>
+                <img>
+                <p>New projects to be added.</p>
+            </card>
+
             <card></card>
             <card></card>
             <card></card>
