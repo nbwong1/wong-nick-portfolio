@@ -12,7 +12,7 @@ What I am looking forward to is learning more and practicing the advanced teachi
 I believe that by putting together a portfolio of my work, I can also improve my own skills by applying what I have learned in class. 
 
 Here is a screenshot of the website based on my code: 
-![wong nick portfolio]()
+![wong nick portfolio](https://github.com/nbwong1/wong-nick-portfolio/blob/main/assets/images/wong-nick-portfolio.png)
 
 ## How to use my projects
 
