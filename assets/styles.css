@@ -1,11 +1,12 @@
 /* my header will comprise of my name and my nav bar. */
 body {
     background-color: #2e2836;
-    color: #8693ab;  
+    color: rgb(255, 224, 224); 
+    
 }
 #avatar {
     border: #8693ab solid 2px;
-    width: 100px;
+    width: 300px;
 
 }
 
@@ -17,6 +18,8 @@ header {
     flex-direction: row;
     width: 100%; 
     background-color: #b6d094; 
+    position:absolute;
+    margin-bottom: 0px;
 }
 
 h1 {
@@ -51,6 +54,16 @@ li {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
 }
+#aboutme {
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+}
 
 h2 {
     width: 100%;
@@ -58,15 +71,22 @@ h2 {
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+h3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 div {
     display:inline-flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 1908px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
     border-radius: 25px;
+    margin-top: 150px;
 }
 
  .skill{
@@ -86,4 +106,25 @@ img {
 h5 {
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    margin: 25px 15px 15px 20px;
+}
+
+form {
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+footer img {
+    display: flex;
+    float: right;
 }
